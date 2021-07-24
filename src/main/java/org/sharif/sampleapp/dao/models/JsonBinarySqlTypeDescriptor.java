@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp.dao.models;
+package org.sharif.sampleapp.dao.models;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.vladmihalcea.hibernate.type.json.internal.AbstractJsonSqlTypeDescriptor;

@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp.service.models;
+package org.sharif.sampleapp.service.models;
 
 import lombok.*;
 

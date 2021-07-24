@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp;
+package org.sharif.sampleapp;
 
 import java.util.Optional;
 

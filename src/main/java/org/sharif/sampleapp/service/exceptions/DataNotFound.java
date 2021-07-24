@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp.service.exceptions;
+package org.sharif.sampleapp.service.exceptions;
 
 public class DataNotFound extends Exception {
 

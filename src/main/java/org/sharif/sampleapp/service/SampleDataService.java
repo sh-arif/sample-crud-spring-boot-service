@@ -1,11 +1,11 @@
-package com.lionsbot.sampleapp.service;
+package org.sharif.sampleapp.service;
 
-import com.lionsbot.sampleapp.service.models.SampleDataModel;
+import org.sharif.sampleapp.service.models.SampleDataModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lionsbot.sampleapp.dao.SampleDataRepository;
-import com.lionsbot.sampleapp.dao.models.SampleDataDao;
+import org.sharif.sampleapp.dao.SampleDataRepository;
+import org.sharif.sampleapp.dao.models.SampleDataDao;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;

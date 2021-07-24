@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp.dao.models;
+package org.sharif.sampleapp.dao.models;
 
 import com.vladmihalcea.hibernate.type.json.internal.JacksonUtil;
 import org.hibernate.type.descriptor.WrapperOptions;

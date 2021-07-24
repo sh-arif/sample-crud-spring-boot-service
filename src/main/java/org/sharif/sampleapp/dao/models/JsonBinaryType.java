@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp.dao.models;
+package org.sharif.sampleapp.dao.models;
 
 import org.hibernate.type.AbstractSingleColumnStandardBasicType;
 import org.hibernate.usertype.DynamicParameterizedType;

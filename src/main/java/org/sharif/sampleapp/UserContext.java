@@ -1,8 +1,8 @@
-package com.lionsbot.sampleapp;
+package org.sharif.sampleapp;
 
 import java.util.UUID;
 
-import com.lionsbot.sampleapp.common.User;
+import org.sharif.sampleapp.common.User;
 
 public class UserContext {
 

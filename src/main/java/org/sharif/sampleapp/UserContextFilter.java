@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp;
+package org.sharif.sampleapp;
 
 import java.io.IOException;
 import java.util.UUID;
@@ -19,7 +19,7 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import com.lionsbot.sampleapp.common.User;
+import org.sharif.sampleapp.common.User;
 
 @Data
 @EqualsAndHashCode(callSuper = false)

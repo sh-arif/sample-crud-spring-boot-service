@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp;
+package org.sharif.sampleapp;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

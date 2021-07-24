@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp.common;
+package org.sharif.sampleapp.common;
 
 import lombok.Getter;
 import lombok.Setter;

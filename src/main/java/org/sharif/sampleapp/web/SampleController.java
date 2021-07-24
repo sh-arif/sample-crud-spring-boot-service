@@ -1,6 +1,6 @@
-package com.lionsbot.sampleapp.web;
+package org.sharif.sampleapp.web;
 
-import com.lionsbot.sampleapp.service.models.SampleDataModel;
+import org.sharif.sampleapp.service.models.SampleDataModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.lionsbot.sampleapp.service.SampleDataService;
+import org.sharif.sampleapp.service.SampleDataService;
 
 
 @RestController

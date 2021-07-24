@@ -1,9 +1,8 @@
-package com.lionsbot.sampleapp.dao.models;
+package org.sharif.sampleapp.dao.models;
 
 import lombok.*;
 import org.hibernate.annotations.GenerationTime;
-import org.hibernate.annotations.TypeDef;
-import com.lionsbot.sampleapp.common.UpdatableEntity;
+import org.sharif.sampleapp.common.UpdatableEntity;
 import javax.persistence.*;
 import java.util.UUID;
 

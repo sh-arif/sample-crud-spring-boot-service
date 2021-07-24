@@ -1,4 +1,4 @@
-package com.lionsbot.sampleapp.web.util;
+package org.sharif.sampleapp.web.util;
 
 
 import lombok.Data;
