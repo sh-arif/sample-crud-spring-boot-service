@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active:
+      - ${APPLICATION_SPRING_PROFILE:dev}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, info
+
+---
+spring:
+  profiles: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: ${APPLICATION_EUREKA_URL}
+    region: default
+---
+spring:
+  profiles: prod, alpha,uat
+eureka:
+  client:
+    service-url:
+      defaultZone: ${APPLICATION_EUREKA_URL}
+    region: default
+  instance:
+    instance-id: ${ECS_INSTANCE_IP_ADDRESS}:${spring.application.name}:${server.port}
+    ip-address: ${ECS_INSTANCE_IP_ADDRESS}
+    prefer-ip-address: true
